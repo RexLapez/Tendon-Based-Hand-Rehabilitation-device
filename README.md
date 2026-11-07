@@ -8,7 +8,6 @@ Built for **MD6193: 3D Rapid Prototyping and Modelling (2026)** as a reverse eng
 
 ![Assembled prototype](images/prototype.jpg)
 
-> **Status:** working proof of concept. It closes and opens on a serial command. There is no grip-force testing, no EMG input and no feedback yet. See [Limitations](#limitations) and [Roadmap](#roadmap).
 
 ## Why this exists
 
