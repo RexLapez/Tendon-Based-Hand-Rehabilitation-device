@@ -2,7 +2,6 @@
 
 A low-cost, 3D-printed prosthetic hand and forearm that closes all its fingers from a **single servo motor**. One actuator pulls fishnet-wire tendons through channels printed into the palm and fingers, so the hand stays light, cheap and easy to repair.
 
-Built for **MD6193: 3D Rapid Prototyping and Modelling (2026)** as a reverse engineering mini project.
 
 ![Assembled prototype](images/prototype.jpg)
 
@@ -102,10 +101,3 @@ Two things went wrong, and both are worth knowing about before you print your ow
 - Control is by serial command only. No muscle-signal input, no grip-force sensing.
 - No quantitative testing yet (grip force, closing time, durability).
 
-
-- Harsh Mundhada
-- Anurag Singh
-
-## Acknowledgements
-
-Developed as part of the MD6193 course, 3D Rapid Prototyping and Modelling (2026).
