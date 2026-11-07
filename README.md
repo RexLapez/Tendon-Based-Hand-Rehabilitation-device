@@ -1,5 +1,3 @@
-# Tendon-Based-Hand-Rehabilitation-device
-
 # Tendon-Driven Prosthetic Hand
 
 A low-cost, 3D-printed prosthetic hand and forearm that closes all its fingers from a **single servo motor**. One actuator pulls fishnet-wire tendons through channels printed into the palm and fingers, so the hand stays light, cheap and easy to repair.
@@ -8,6 +6,7 @@ Built for **MD6193: 3D Rapid Prototyping and Modelling (2026)** as a reverse eng
 
 ![Assembled prototype](images/prototype.jpg)
 
+> **Status:** working proof of concept. It closes and opens on a serial command. There is no grip-force testing, no EMG input and no feedback yet. See [Limitations](#limitations) and [Roadmap](#roadmap).
 
 ## Why this exists
 
@@ -104,6 +103,29 @@ Two things went wrong, and both are worth knowing about before you print your ow
 - Control is by serial command only. No muscle-signal input, no grip-force sensing.
 - No quantitative testing yet (grip force, closing time, durability).
 
+## Roadmap
+
+Small fixes (same architecture):
+
+- [ ] Compensate for shrinkage in the channel dimensions in CAD
+- [ ] Smoother, larger-radius channels, optionally lined with tubing
+- [ ] Elastic return along the back of each finger
+- [ ] Adjustable tendon anchor
+- [ ] Button input so it works without a computer
+- [ ] Regulated, properly rated servo supply
+
+Bigger changes (new architecture):
+
+- [ ] Surface EMG sensing on biceps and triceps
+- [ ] Onboard classifier for grip modes
+- [ ] Differential (equaliser) tendon linkage so fingers adapt to object shape
+- [ ] Fingertip force-sensitive resistors for closed-loop grip
+- [ ] Parametric CAD so the hand can be rescaled for different users
+
+## Authors
+
+- Harsh Mundhada
+- Anurag Singh
 
 ## Acknowledgements
 
